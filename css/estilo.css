@@ -1,0 +1,69 @@
+/*para hacer que todo en el index sea de color rojo 
+seria con el siguiente comando
+
+*{
+    color: red ;
+}*/
+
+/*para hacer que todos los h1 de mi pagina index 
+sean rojos */
+h1{
+    color: red;
+}
+p{
+    color: blue;
+}
+ul{
+    color: chartreuse;
+}
+
+/*para seleccionar por clase se pone (.nombre que le pondremos)
+ y en el index  con (class="nombre que pusimos")
+ el important es el nivel mas alto  el color que se seleccione
+ y se le ponga important ningun otra especificacion lo podra 
+ cambiar*/
+.parrafo1{
+    color: darkred !important;
+}
+
+/*para que solo una h1 identificado se vuelva de un color 
+en especifico usamos el ID
+SI POR EJEMPLO QUISIERA MODIFICAR MAS ELEMENTOS H2 
+especificos les pondria el mismo ID a los que quiero 
+modificar
+pero eso tendria problemas en un futuro con java scrip mejor 
+EL ID ES UNICO Y SOLO PUEDE TENER UN ID UN ELEMENTO Y NO PUEDE 
+REPETIRSE*/
+
+#modificado-especifico-por-ID-paraH2{
+    color:royalblue;
+}
+#parrafo-imagen{
+    color: limegreen;
+}
+/*para hacer por atributo elegimos cualquier atributo 
+ y lo ponemos en el index y luego en el css entre "[""]"
+ corchetes*/
+
+
+[pruebaPorAtributo="esta es"]{
+    color: peru;
+}
+
+.pruebaCascada b{
+    color: red  ;
+}
+
+.pruebaCascada b span{
+    color: blue;
+}
+.pseudo  b:hover {
+    color: crimson;
+}
+#pseudo p:hover{
+    color: red;
+}
+/*para metodologia de bem*/
+.metBem__input--activo{
+    color: fuchsia;
+}
